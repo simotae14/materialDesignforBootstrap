@@ -1,1 +1,15 @@
 /* YOUR CUSTOM STYLES */
+
+/* aggiungo lo stile per l'hr che divide le due row */
+.extra-margins {
+  /* creo due margini diversi sopra e sotto */
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+/* vogliamo ache aumentare lo spazio fra il main content, l'header ed  il footer che ora son troppo attaccati
+*/
+main {
+  padding-top: 6.5rem;
+  padding-bottom: 2rem;
+}
