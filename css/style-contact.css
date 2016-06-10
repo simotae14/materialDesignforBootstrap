@@ -1,0 +1,51 @@
+/* YOUR CUSTOM STYLES */
+
+/* aggiungo lo stile per l'hr che divide le due row */
+.extra-margins {
+  /* creo due margini diversi sopra e sotto */
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+/* vogliamo ache aumentare lo spazio fra il main content, l'header ed  il footer che ora son troppo attaccati
+*/
+main {
+  padding-top: 6.5rem;
+  padding-bottom: 2rem;
+}
+
+/* aggiungo lo stile per la bkg img */
+/*
+setto altezza di tutti i componenti del nostro corpo della viewport al 100% di modo che occupi l'immagine tutta la viewport anche in altezza, inoltre centra verticalmente anche il contenuto della view
+*/
+html, body, .view {
+  height: 100%;
+}
+
+/*
+setta lo sfondo del div view con l'immagine di sfondo
+che non si ripete, è centrato sia orizzontalmente che verticalmente ed è fisso
+*/
+.view {
+   background: url("http://mdbootstrap.com/images/regular/city/img%20(17).jpg")no-repeat center center fixed;
+    /* il valore cover setta la dimensione della immagine di modo che vada a coprire ogni spazio dello schermo */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* 
+cambiamo il colore del testo dell'heading usando la classe flex-center e settandolo a bianco
+*/
+.flex-center {
+  color: #fff;
+}
+
+/* aggiungo dello stile per le icone
+della sezione contatti
+*/
+#contact .fa {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
